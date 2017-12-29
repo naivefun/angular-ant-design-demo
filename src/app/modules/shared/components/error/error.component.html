@@ -1,4 +1,15 @@
-<h1>Error!</h1>
-<ng-container *ngIf="errorCode">
-  <h2>Code: {{errorCode}}</h2>
-</ng-container>
+<div class="error-container">
+  <div class="image" style="background-image: url('https://gw.alipayobjects.com/zos/rmsportal/KpnpchXsobRgLElEozzI.svg')"></div>
+  <div class="content">
+    <div class="code">404</div>
+    <div class="message">抱歉，你访问的页面不存在</div>
+    <div class="actions">
+      <button nz-button nzType="primary" nzSize="large">
+        <span>返回上一页</span>
+      </button>
+      <button nz-button nzType="default" nzSize="large">
+        <span>详情</span>
+      </button>
+    </div>
+  </div>
+</div>

@@ -8,14 +8,36 @@
 <h2>Here are some links to help you start: </h2>
 <ul>
   <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
+    <h2>
+      <a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a>
+    </h2>
   </li>
   <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
+    <h2>
+      <a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a>
+    </h2>
   </li>
   <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
+    <h2>
+      <a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a>
+    </h2>
   </li>
 </ul>
+
+<button nz-button [nzType]="'primary'" [nzShape]="'circle'">
+  <i class="anticon anticon-search"></i>
+</button>
+<button nz-button [nzType]="'primary'">
+  <i class="anticon anticon-search"></i>
+  <span>Search</span>
+</button>
+<br>
+<button nz-button [nzType]="'dashed'" [nzShape]="'circle'">
+  <i class="anticon anticon-search"></i>
+</button>
+<button nz-button [nzType]="'default'">
+  <i class="anticon anticon-search"></i>
+  <span>Search</span>
+</button>
 
 <router-outlet></router-outlet>

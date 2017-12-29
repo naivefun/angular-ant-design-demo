@@ -8,3 +8,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## 使用 Ant Design
 - `npm install ng-zorro-antd --save`
 - import `NgZorroAntdModule.forRoot()` in AppModule
+
+## 创建 Module/Component
+- `ng g m Shared`
+- `ng g c Error`

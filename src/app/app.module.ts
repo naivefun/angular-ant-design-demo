@@ -8,6 +8,7 @@ import { NgZorroAntdModule } from 'ng-zorro-antd';
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
+import { SharedModule } from './modules/shared/shared.module';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { AppComponent } from './app.component';
     HttpClientModule,
     BrowserAnimationsModule,
     NgZorroAntdModule.forRoot(),
-    AppRoutingModule
+    AppRoutingModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
